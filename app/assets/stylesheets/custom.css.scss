@@ -7,3 +7,14 @@
 .User_name{
   color: teal;
 }
+
+#messages{
+  height: 15em;
+  overflow: auto;
+}
+
+.input {
+  .button{
+    display: none;
+  }
+}
