@@ -1,0 +1,6 @@
+<% flash.each do |name,msg| %>
+  <div class="ui container <%= name == "alert" ? "negative" : "positive" %> floating message">
+    <i class="close icon"></i>
+    <p><%= msg %></p>
+  </div>
+<%end%>
